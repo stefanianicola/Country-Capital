@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App data={{Germany: "Berlin",Poland: "Warsaw",Azerbaijan: "Baku",PapuaNewGuinea: "Port Moresby"}} />
   </React.StrictMode>,
   document.getElementById('root')
 );
